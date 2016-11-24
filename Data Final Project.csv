@@ -1,0 +1,301 @@
+Project ID,Country,FAULT,Effort (Person/Month),Module,Component,BackEnd,FrontEnd,OS
+ID12101,Spain,YES,4.8,Ads,C2,NO,YES,Mac
+ID12102,Italy,NO,4,External Payment,C4,YES,YES,Windows
+ID12103,Spain,NO,5.1,Internal Payment,C2,YES,NO,Mac
+ID12104,Italy,NO,2.3,External Payment,C3,YES,YES,Mac
+ID12105,Portugal,NO,5.7,Internal Payment,C6,YES,NO,Mac
+ID12106,Italy,YES,5.7,DDBB,C5,YES,NO,Mac
+ID12107,Portugal,YES,2.2,Internal Payment,C1,NO,YES,Mac
+ID12108,Italy,NO,5.8,Internal Payment,C3,YES,NO,Mac
+ID12109,France,NO,3.7,DDBB,C3,YES,YES,Mac
+ID12110,Italy,NO,5.4,DDBB,C3,YES,NO,Mac
+ID12111,Italy,NO,6.6,Internal Payment,C7,YES,NO,Mac
+ID12112,Spain,NO,5.2,Internal Payment,C3,NO,NO,Windows
+ID12113,Italy,YES,4.4,Ads,C2,YES,NO,Windows
+ID12114,Italy,YES,6.6,Ads,C7,YES,NO,Windows
+ID12115,Portugal,NO,3.6,Internal Payment,C3,YES,NO,Windows
+ID12116,Spain,NO,3.8,Internal Payment,C3,YES,NO,Windows
+ID12117,Italy,NO,3.7,DDBB,C2,YES,YES,Windows
+ID12118,France,NO,4.6,Internal Payment,C5,YES,NO,Windows
+ID12119,Spain,YES,6.2,Internal Payment,C3,YES,NO,Mac
+ID12120,Italy,NO,3.1,Internal Payment,C3,YES,NO,Mac
+ID12121,Spain,YES,6.1,DDBB,C7,YES,NO,Mac
+ID12122,Italy,NO,5,DDBB,C2,YES,NO,Mac
+ID12123,Spain,NO,5.4,Internal Payment,C5,YES,NO,Mac
+ID12124,Italy,NO,2.7,Internal Payment,C2,NO,NO,Windows
+ID12125,Spain,NO,2.2,DDBB,C2,NO,NO,Mac
+ID12126,Spain,NO,5.6,Internal Payment,C5,YES,NO,Windows
+ID12127,Spain,NO,4.5,Internal Payment,C3,YES,NO,Windows
+ID12128,Italy,YES,3.9,Ads,C3,YES,YES,Mac
+ID12129,Spain,NO,3.9,External Payment,C4,NO,YES,Windows
+ID12130,Portugal,YES,6.1,Ads,C3,YES,YES,Mac
+ID12131,Portugal,NO,6.1,DDBB,C3,YES,NO,Mac
+ID12132,Italy,NO,2,DDBB,C2,YES,NO,Mac
+ID12133,France,YES,4.5,Ads,C3,YES,NO,Mac
+ID12134,Spain,NO,3.3,External Payment,C4,NO,NO,Mac
+ID12135,France,YES,4.3,Internal Payment,C5,NO,NO,Mac
+ID12136,Spain,NO,2.7,DDBB,C3,YES,NO,Mac
+ID12137,Portugal,NO,1.9,External Payment,C1,YES,NO,Mac
+ID12138,Portugal,YES,3.6,Internal Payment,C2,NO,YES,Mac
+ID12139,Italy,NO,4.3,Internal Payment,C2,YES,NO,Mac
+ID12140,France,NO,6.6,DDBB,C3,NO,YES,Mac
+ID12141,Italy,YES,5.5,Internal Payment,C3,YES,YES,Windows
+ID12142,Spain,NO,4.7,Internal Payment,C3,YES,YES,Mac
+ID12143,Italy,YES,6.7,DDBB,C7,NO,NO,Mac
+ID12144,Italy,NO,3.2,Internal Payment,C3,YES,YES,Windows
+ID12145,Spain,NO,2,DDBB,C2,NO,NO,Windows
+ID12146,Spain,YES,6.4,DDBB,C6,YES,NO,Windows
+ID12147,Spain,YES,5,Ads,C2,NO,NO,Mac
+ID12148,Spain,YES,2.9,DDBB,C2,NO,NO,Windows
+ID12149,Spain,YES,5.2,DDBB,C5,NO,YES,Mac
+ID12150,Portugal,NO,4.7,DDBB,C2,YES,NO,Mac
+ID12151,Italy,NO,2.4,DDBB,C2,NO,NO,Mac
+ID12152,Italy,NO,3.6,Internal Payment,C3,YES,YES,Mac
+ID12153,Italy,YES,4.3,Ads,C2,YES,NO,Mac
+ID12154,France,YES,4.8,Ads,C4,NO,NO,Mac
+ID12155,Italy,NO,6.3,Internal Payment,C7,YES,NO,Windows
+ID12156,Portugal,YES,5.2,External Payment,C6,NO,NO,Mac
+ID12157,Spain,YES,5.8,Internal Payment,C3,NO,YES,Mac
+ID12158,Spain,YES,2.8,Internal Payment,C3,YES,NO,Mac
+ID12159,Spain,NO,2.9,Internal Payment,C2,YES,YES,Mac
+ID12160,Spain,YES,3.4,Ads,C3,NO,NO,Windows
+ID12161,Spain,YES,4.2,Ads,C3,YES,NO,Windows
+ID12162,Spain,YES,6.5,Ads,C4,NO,YES,Mac
+ID12163,Spain,NO,4.7,DDBB,C3,YES,NO,Mac
+ID12164,Spain,NO,2,Internal Payment,C1,YES,NO,Mac
+ID12165,Italy,NO,2.1,Internal Payment,C1,NO,NO,Windows
+ID12166,Spain,NO,4.2,Internal Payment,C2,YES,NO,Mac
+ID12167,Italy,NO,1.9,DDBB,C1,NO,NO,Mac
+ID12168,Italy,NO,4.1,Internal Payment,C4,NO,NO,Windows
+ID12169,Italy,NO,3,DDBB,C3,NO,NO,Mac
+ID12170,Portugal,YES,3.1,DDBB,C1,YES,YES,Mac
+ID12171,Spain,NO,2.5,External Payment,C2,YES,NO,Mac
+ID12172,Spain,YES,2.1,Internal Payment,C1,NO,YES,Mac
+ID12173,Spain,YES,3.6,External Payment,C4,YES,NO,Windows
+ID12174,Spain,NO,5.8,DDBB,C3,YES,NO,Windows
+ID12175,Spain,YES,6.4,DDBB,C6,NO,NO,Mac
+ID12176,Portugal,YES,5.9,DDBB,C4,NO,YES,Mac
+ID12177,Italy,NO,4.5,Internal Payment,C3,NO,NO,Windows
+ID12178,Spain,YES,6.1,Ads,C6,YES,NO,Windows
+ID12179,Spain,NO,3,Internal Payment,C2,YES,YES,Mac
+ID12180,Italy,YES,5.8,DDBB,C4,YES,NO,Mac
+ID12181,Italy,YES,5,External Payment,C3,NO,NO,Mac
+ID12182,Spain,NO,3,External Payment,C3,NO,YES,Mac
+ID12183,Spain,NO,2.9,Ads,C2,YES,NO,Mac
+ID12184,Spain,YES,3.5,Ads,C2,YES,NO,Mac
+ID12185,Spain,YES,6.2,Internal Payment,C3,YES,YES,Windows
+ID12186,Spain,YES,3.6,Ads,C4,YES,NO,Mac
+ID12187,Spain,NO,2.5,Internal Payment,C2,YES,NO,Mac
+ID12188,Italy,NO,6.6,Internal Payment,C3,NO,NO,Windows
+ID12189,France,NO,3,Internal Payment,C2,YES,NO,Windows
+ID12190,Spain,YES,5.4,DDBB,C4,YES,YES,Mac
+ID12191,Italy,YES,3.7,Ads,C3,YES,YES,Windows
+ID12192,Spain,NO,2.8,DDBB,C3,NO,NO,Windows
+ID12193,Portugal,YES,5.3,Internal Payment,C4,NO,YES,Mac
+ID12194,Spain,NO,6.1,DDBB,C5,YES,NO,Mac
+ID12195,Spain,NO,6.1,Internal Payment,C5,YES,NO,Mac
+ID12196,Spain,NO,1.8,Internal Payment,C1,YES,NO,Mac
+ID12197,Spain,NO,2.2,Ads,C1,YES,YES,Windows
+ID12198,Italy,YES,3.4,DDBB,C4,YES,NO,Windows
+ID12199,Spain,NO,3.5,DDBB,C1,NO,NO,Mac
+ID12200,Portugal,NO,1.8,Internal Payment,C2,YES,YES,Mac
+ID12201,Spain,YES,5.4,Ads,C3,YES,NO,Windows
+ID12202,Spain,NO,2.7,DDBB,C1,YES,NO,Mac
+ID12203,Spain,YES,4.2,Internal Payment,C2,YES,YES,Windows
+ID12204,Italy,NO,4.3,Internal Payment,C4,NO,NO,Windows
+ID12205,Spain,YES,6.4,Ads,C4,YES,NO,Mac
+ID12206,Italy,NO,4.3,External Payment,C4,YES,NO,Mac
+ID12207,Portugal,NO,4.9,Internal Payment,C6,YES,NO,Mac
+ID12208,Spain,NO,2.3,Internal Payment,C2,YES,YES,Mac
+ID12209,Spain,YES,2.3,Internal Payment,C2,NO,NO,Mac
+ID12210,Spain,NO,3,DDBB,C3,YES,NO,Windows
+ID12211,Italy,YES,3.6,DDBB,C5,NO,NO,Mac
+ID12212,Spain,NO,3.4,External Payment,C3,YES,YES,Windows
+ID12213,Spain,NO,5.1,Internal Payment,C5,YES,YES,Mac
+ID12214,Italy,YES,3.6,DDBB,C4,NO,NO,Mac
+ID12215,Spain,YES,5.6,Ads,C5,YES,NO,Mac
+ID12216,Spain,NO,5.4,Internal Payment,C6,YES,NO,Mac
+ID12217,Italy,NO,5.6,DDBB,C3,YES,NO,Mac
+ID12218,Spain,NO,2.6,External Payment,C1,YES,NO,Windows
+ID12219,Italy,YES,3.9,Internal Payment,C2,NO,YES,Mac
+ID12220,Portugal,YES,6.4,External Payment,C6,YES,NO,Mac
+ID12221,Portugal,NO,4.6,DDBB,C4,NO,NO,Windows
+ID12222,Portugal,YES,6.2,Ads,C7,YES,NO,Mac
+ID12223,Italy,YES,3.6,Ads,C3,YES,NO,Windows
+ID12224,Portugal,YES,3.5,Ads,C4,NO,NO,Mac
+ID12225,Portugal,YES,4.7,External Payment,C5,NO,NO,Mac
+ID12226,Spain,YES,4.7,DDBB,C5,YES,YES,Mac
+ID12227,Italy,NO,3.7,Internal Payment,C3,YES,NO,Mac
+ID12228,Spain,NO,4.8,Internal Payment,C5,YES,NO,Mac
+ID12229,Italy,NO,4.1,External Payment,C2,YES,NO,Mac
+ID12230,Portugal,YES,2.7,Internal Payment,C3,NO,NO,Mac
+ID12231,Spain,NO,4.3,DDBB,C3,NO,YES,Mac
+ID12232,Portugal,NO,6.1,External Payment,C5,YES,NO,Windows
+ID12233,France,NO,5.2,DDBB,C2,NO,NO,Mac
+ID12234,France,NO,6.4,Internal Payment,C4,YES,YES,Mac
+ID12235,Italy,YES,6.6,DDBB,C7,YES,NO,Windows
+ID12236,Italy,YES,5.3,Ads,C4,YES,NO,Mac
+ID12237,Spain,NO,2,DDBB,C2,YES,YES,Windows
+ID12238,Spain,YES,5.7,Internal Payment,C5,NO,NO,Mac
+ID12239,Portugal,NO,6.5,Internal Payment,C5,YES,NO,Mac
+ID12240,Spain,YES,6.4,Ads,C7,NO,NO,Mac
+ID12241,Spain,NO,5.2,External Payment,C5,YES,NO,Mac
+ID12242,Spain,NO,4.7,Internal Payment,C3,YES,YES,Mac
+ID12243,Italy,NO,2.8,Ads,C2,YES,YES,Windows
+ID12244,Italy,NO,6.4,Internal Payment,C6,YES,NO,Windows
+ID12245,Spain,YES,2.5,Ads,C2,YES,NO,Mac
+ID12246,France,YES,5.8,Internal Payment,C6,YES,NO,Windows
+ID12247,Italy,NO,3.4,DDBB,C3,YES,YES,Mac
+ID12248,Spain,NO,2,DDBB,C2,NO,NO,Mac
+ID12249,Portugal,NO,6.3,Internal Payment,C3,YES,NO,Mac
+ID12250,France,NO,3,External Payment,C3,YES,NO,Mac
+ID12251,Portugal,YES,5.3,Ads,C3,YES,NO,Mac
+ID12252,Italy,YES,4.3,DDBB,C4,NO,YES,Mac
+ID12253,Italy,YES,6.3,DDBB,C7,YES,NO,Windows
+ID12254,Spain,YES,3.3,Ads,C3,YES,NO,Windows
+ID12255,Portugal,NO,4.1,DDBB,C3,NO,YES,Mac
+ID12256,France,YES,2,DDBB,C1,YES,NO,Mac
+ID12257,Italy,NO,5,Internal Payment,C3,YES,NO,Mac
+ID12258,Portugal,NO,2.4,DDBB,C3,YES,NO,Mac
+ID12259,Italy,YES,6,Internal Payment,C3,YES,YES,Mac
+ID12260,Italy,YES,4.4,Ads,C2,YES,NO,Mac
+ID12261,Spain,NO,2.3,DDBB,C2,YES,NO,Mac
+ID12262,Spain,NO,4,Internal Payment,C2,YES,YES,Mac
+ID12263,Italy,NO,4.9,External Payment,C3,NO,YES,Mac
+ID12264,Italy,NO,2.1,Ads,C1,NO,YES,Mac
+ID12265,Spain,NO,4,Internal Payment,C3,YES,YES,Mac
+ID12266,Portugal,YES,2.6,Ads,C3,YES,YES,Windows
+ID12267,Italy,NO,2,Ads,C1,NO,NO,Windows
+ID12268,Spain,NO,2.4,Ads,C1,NO,YES,Windows
+ID12269,Italy,NO,3.7,Internal Payment,C3,NO,NO,Mac
+ID12270,Spain,NO,5.6,Internal Payment,C4,YES,YES,Mac
+ID12271,Spain,NO,5.2,Internal Payment,C6,YES,NO,Mac
+ID12272,Spain,NO,2.2,DDBB,C3,YES,YES,Mac
+ID12273,Spain,NO,3.5,External Payment,C3,YES,NO,Mac
+ID12274,Portugal,YES,3.4,Ads,C3,YES,NO,Mac
+ID12275,Italy,YES,6.7,DDBB,C5,YES,NO,Mac
+ID12276,Spain,YES,5.8,Internal Payment,C7,NO,NO,Mac
+ID12277,Italy,NO,4,Internal Payment,C5,YES,NO,Mac
+ID12278,Spain,YES,4.1,Internal Payment,C4,YES,NO,Windows
+ID12279,Spain,YES,4.3,Internal Payment,C2,YES,YES,Mac
+ID12280,Spain,YES,6.3,DDBB,C4,YES,YES,Mac
+ID12281,Spain,YES,2.2,Ads,C2,YES,NO,Windows
+ID12282,Portugal,YES,6,Internal Payment,C7,NO,NO,Mac
+ID12283,Spain,NO,6.5,Internal Payment,C5,NO,NO,Windows
+ID12284,Spain,NO,4.8,DDBB,C2,YES,NO,Windows
+ID12285,Spain,NO,3.8,Internal Payment,C4,NO,NO,Windows
+ID12286,Portugal,YES,4.9,Ads,C4,YES,NO,Windows
+ID12287,Spain,YES,2,Internal Payment,C2,YES,YES,Windows
+ID12288,Italy,YES,4.8,Ads,C4,YES,YES,Mac
+ID12289,Spain,NO,3.8,DDBB,C4,YES,YES,Windows
+ID12290,Spain,NO,4.1,Internal Payment,C3,YES,YES,Mac
+ID12291,France,YES,6.7,DDBB,C7,YES,NO,Mac
+ID12292,Spain,NO,3.9,Ads,C2,YES,NO,Mac
+ID12293,Portugal,YES,6.4,External Payment,C6,YES,NO,Mac
+ID12294,Spain,YES,4.1,Internal Payment,C2,YES,YES,Windows
+ID12295,France,YES,5.5,DDBB,C4,YES,YES,Mac
+ID12296,Spain,YES,5.2,Ads,C2,YES,NO,Windows
+ID12297,Spain,YES,3,Internal Payment,C2,NO,YES,Windows
+ID12298,Spain,YES,5.2,DDBB,C6,YES,NO,Mac
+ID12299,Spain,NO,2.6,DDBB,C2,NO,YES,Windows
+ID12300,Spain,YES,2.6,Internal Payment,C3,YES,NO,Mac
+ID12301,Italy,YES,4.6,Ads,C3,YES,NO,Mac
+ID12302,Italy,NO,4.6,Internal Payment,C5,YES,NO,Windows
+ID12303,Spain,NO,5.2,Internal Payment,C2,YES,YES,Mac
+ID12304,Spain,NO,3.7,External Payment,C2,NO,YES,Mac
+ID12305,Spain,YES,2.2,Ads,C2,YES,NO,Windows
+ID12306,Spain,YES,1.8,Internal Payment,C2,NO,YES,Windows
+ID12307,Spain,YES,6.3,Internal Payment,C7,NO,NO,Mac
+ID12308,Spain,NO,2.5,Internal Payment,C2,YES,NO,Windows
+ID12309,Spain,NO,6.7,Internal Payment,C5,YES,NO,Mac
+ID12310,Spain,YES,2.7,Internal Payment,C3,NO,NO,Mac
+ID12311,Spain,YES,6.1,Internal Payment,C3,NO,YES,Mac
+ID12312,Italy,YES,5.8,Ads,C4,YES,NO,Mac
+ID12313,Spain,YES,2.2,Internal Payment,C2,YES,NO,Mac
+ID12314,Italy,YES,2.8,Ads,C2,NO,YES,Mac
+ID12315,Spain,NO,2.3,Internal Payment,C1,YES,NO,Mac
+ID12316,France,NO,2.7,Internal Payment,C2,YES,NO,Mac
+ID12317,France,NO,2.7,Internal Payment,C2,YES,YES,Mac
+ID12318,Spain,NO,4,External Payment,C4,YES,NO,Windows
+ID12319,Italy,YES,3.9,Internal Payment,C4,NO,NO,Mac
+ID12320,Spain,NO,3.5,Internal Payment,C3,YES,NO,Mac
+ID12321,Spain,NO,3.7,DDBB,C3,NO,YES,Mac
+ID12322,Spain,YES,4.7,DDBB,C5,YES,NO,Mac
+ID12323,Spain,YES,4.2,Ads,C5,YES,NO,Mac
+ID12324,Spain,NO,6.7,Internal Payment,C5,YES,NO,Windows
+ID12325,Portugal,YES,5.7,External Payment,C6,YES,NO,Mac
+ID12326,Portugal,YES,4.7,Internal Payment,C3,NO,NO,Mac
+ID12327,Spain,YES,6.7,DDBB,C6,YES,NO,Mac
+ID12328,Italy,YES,5.6,Internal Payment,C3,NO,NO,Mac
+ID12329,Portugal,YES,3.7,Internal Payment,C3,NO,YES,Windows
+ID12330,Spain,YES,2.7,Internal Payment,C1,NO,YES,Mac
+ID12331,Spain,YES,5.9,Internal Payment,C4,YES,YES,Windows
+ID12332,Spain,NO,3.1,Ads,C3,NO,YES,Windows
+ID12333,France,YES,3.1,Internal Payment,C2,YES,YES,Windows
+ID12334,Italy,NO,3.2,Internal Payment,C4,YES,NO,Mac
+ID12335,Portugal,NO,5.7,External Payment,C5,NO,NO,Mac
+ID12336,Spain,YES,4.9,Ads,C2,NO,NO,Windows
+ID12337,Italy,YES,6.5,DDBB,C6,NO,NO,Mac
+ID12338,Spain,NO,2.2,DDBB,C2,YES,NO,Windows
+ID12339,Portugal,NO,2.6,DDBB,C2,YES,NO,Mac
+ID12340,Spain,NO,2.3,Internal Payment,C2,YES,NO,Mac
+ID12341,Portugal,NO,2.6,DDBB,C1,YES,YES,Mac
+ID12342,Spain,YES,5.9,Internal Payment,C7,NO,NO,Mac
+ID12343,Spain,YES,6.7,Ads,C4,YES,NO,Mac
+ID12344,Spain,NO,3.4,Internal Payment,C3,YES,NO,Mac
+ID12345,Portugal,NO,5,DDBB,C3,YES,NO,Mac
+ID12346,France,NO,4.6,Internal Payment,C5,NO,NO,Windows
+ID12347,Spain,NO,2.3,External Payment,C1,NO,YES,Mac
+ID12348,Portugal,NO,2.6,Internal Payment,C3,YES,YES,Mac
+ID12349,Italy,NO,4,External Payment,C3,YES,NO,Mac
+ID12350,Italy,NO,3.6,External Payment,C3,YES,YES,Mac
+ID12351,Spain,NO,6.5,Internal Payment,C7,NO,NO,Windows
+ID12352,Italy,YES,4.5,Ads,C4,YES,NO,Windows
+ID12353,Spain,NO,2.3,DDBB,C2,YES,YES,Windows
+ID12354,Italy,YES,4.2,Ads,C2,YES,YES,Mac
+ID12355,Portugal,NO,2.1,External Payment,C1,NO,NO,Windows
+ID12356,Spain,YES,6.2,Internal Payment,C3,NO,YES,Mac
+ID12357,France,NO,4.9,DDBB,C3,NO,NO,Mac
+ID12358,Italy,NO,2.8,DDBB,C3,YES,YES,Windows
+ID12359,Italy,NO,3.8,External Payment,C3,NO,YES,Windows
+ID12360,Italy,NO,3.6,Internal Payment,C1,NO,YES,Mac
+ID12361,France,NO,2.2,Internal Payment,C2,YES,NO,Mac
+ID12362,Italy,YES,4,Ads,C3,YES,NO,Windows
+ID12363,Italy,NO,4,Internal Payment,C3,YES,YES,Mac
+ID12364,Spain,NO,6,Internal Payment,C6,YES,NO,Windows
+ID12365,Spain,YES,2.3,Internal Payment,C3,NO,NO,Mac
+ID12366,Spain,YES,2.1,Ads,C2,YES,YES,Mac
+ID12367,Italy,YES,5.8,Internal Payment,C4,NO,NO,Mac
+ID12368,France,YES,4.8,Internal Payment,C4,NO,NO,Mac
+ID12369,Italy,NO,6.3,Internal Payment,C4,YES,YES,Mac
+ID12370,Italy,NO,2,External Payment,C2,NO,YES,Windows
+ID12371,France,YES,6.7,DDBB,C7,NO,NO,Windows
+ID12372,Spain,YES,6.2,Internal Payment,C7,NO,NO,Mac
+ID12373,Italy,NO,3.6,Internal Payment,C2,YES,NO,Mac
+ID12374,Spain,YES,3.1,Ads,C3,YES,YES,Mac
+ID12375,Spain,NO,4.2,Internal Payment,C3,YES,NO,Mac
+ID12376,Portugal,YES,1.8,Internal Payment,C1,YES,YES,Windows
+ID12377,France,YES,4.6,Ads,C3,NO,NO,Windows
+ID12378,Italy,YES,2.5,Ads,C3,YES,NO,Mac
+ID12379,Portugal,NO,6.5,Internal Payment,C3,NO,NO,Windows
+ID12380,Italy,YES,4,Ads,C5,YES,YES,Windows
+ID12381,Spain,YES,3.2,Ads,C3,YES,YES,Mac
+ID12382,Spain,NO,1.8,Internal Payment,C2,YES,NO,Mac
+ID12383,Spain,YES,6.4,Ads,C7,YES,NO,Mac
+ID12384,Spain,NO,4.3,External Payment,C5,YES,NO,Windows
+ID12385,Spain,NO,2.2,External Payment,C2,YES,NO,Mac
+ID12386,Italy,NO,2.5,Internal Payment,C1,YES,YES,Mac
+ID12387,Spain,YES,3.9,Ads,C3,YES,NO,Windows
+ID12388,Spain,NO,5.8,External Payment,C3,YES,YES,Mac
+ID12389,Spain,NO,3.3,Ads,C2,YES,NO,Mac
+ID12390,Portugal,YES,5.2,Ads,C5,YES,NO,Mac
+ID12391,Spain,YES,2.3,Internal Payment,C2,NO,NO,Mac
+ID12392,Spain,YES,4.4,Internal Payment,C5,NO,NO,Mac
+ID12393,Portugal,YES,5.1,DDBB,C6,YES,NO,Windows
+ID12394,Italy,NO,2.6,Internal Payment,C3,YES,NO,Mac
+ID12395,Italy,NO,4.2,Internal Payment,C3,YES,NO,Windows
+ID12396,Italy,NO,3.4,Internal Payment,C4,YES,NO,Windows
+ID12397,Portugal,NO,5.4,DDBB,C3,NO,NO,Windows
+ID12398,Portugal,NO,1.8,DDBB,C1,YES,YES,Mac
+ID12399,Spain,NO,4.7,DDBB,C2,NO,YES,Mac
+ID12400,Spain,NO,2.4,Internal Payment,C2,YES,NO,Mac

@@ -1,0 +1,30 @@
+%Task I: Business understanding
+\chapter{Business understanding: business goals and datamining goals}
+\section{Business objectives:}
+\subsection{The Problem}
+In the last three years the company had to spend more than 20\% of the effort investment for many projects with major faults in the system and we are not able to figure out the reasons for these faults. Fortunately we have a data set about our projects of the last years from all our developer teams in south Europe. The data set also includes information about modifications in the system for the bug fixing, the operating system and the developer team. Our boss is really concerned about the major faults and needs information to find a solution. Moreover some clients are not very satisfied with their buggy CMS.
+
+The problem can occur during the development process, which might lead to a minor effect, or also after deployment of the software. This leads to extra ordinary cost in form of person hours per month in the support and development department and the management. The problem can be expressed in Euros for the extra ordinary costs, percentage of the additional costs compared to the costs of the original effort and the number of projects having a major fault.
+
+\subsection{Goals}
+The main business goal is to reduce or eliminate the costs for major faults and to increase the productivity. Furthermore we want to increase the quality of our products, which leads to a better customer satisfaction and a better reputation and is the base for future turnover.
+
+\section{Business success criteria}
+\begin{itemize}
+	\item Reduction of effort investment for fixing major faults [hours per month or Euros].
+	\item Reduction of bugs reported by customers [\%].
+	\end{itemize}
+
+\section{Determine data mining goals}
+By using logistic regression on the given dataset the goal should be to find a fitting model which describes the influence of different factors that lead to major faults in the software. Therefore the goals for the data model are:
+\begin{itemize}
+	\item Find critical factors which lead to major faults to avoid them or reduce their impact.
+	\item Find factors which lead to faultless software.
+\end{itemize}
+
+\section{Data mining success criteria}
+\begin{itemize}
+	\item Find meaningful factors based on significant odd ratios of the model.
+	\item R squared value should be higher than 80\%.
+	\item The success of the model can be measured if the resulting factors are leading to major faults respectively avoid major faults for future projects.
+\end{itemize}

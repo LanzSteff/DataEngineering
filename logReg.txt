@@ -1,0 +1,118 @@
+=== Run information ===
+
+Scheme:weka.classifiers.functions.Logistic -R 1.0E-8 -M -1
+Relation:     FinalData4-weka.filters.unsupervised.attribute.Remove-R1
+Instances:    300
+Attributes:   23
+              FAULT
+              BackEnd
+              FrontEnd
+              LowEffort
+              MediumEffort
+              HighEffort
+              France
+              Italy
+              Spain
+              Portugal
+              Ads
+              DDBB
+              ExternalPayment
+              InternalPayment
+              C1
+              C2
+              C3
+              C4
+              C5
+              C6
+              C7
+              Mac
+              Windows
+Test mode:10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Logistic Regression with ridge parameter of 1.0E-8
+Coefficients...
+                     Class
+Variable              true
+==========================
+BackEnd            -1.0317
+FrontEnd            0.5647
+LowEffort          -0.1746
+MediumEffort       -0.0888
+HighEffort          0.2712
+France              0.0821
+Italy              -0.3266
+Spain               0.0057
+Portugal            0.4551
+Ads                 2.5142
+DDBB               -0.5788
+ExternalPayment    -1.6709
+InternalPayment    -0.5375
+C1                 -1.3738
+C2                 -0.5242
+C3                 -0.4883
+C4                  0.8509
+C5                  0.1874
+C6                  1.4604
+C7                  1.8669
+Mac                 0.2577
+Windows            -0.2577
+Intercept           0.3518
+
+
+Odds Ratios...
+                     Class
+Variable              true
+==========================
+BackEnd             0.3564
+FrontEnd             1.759
+LowEffort           0.8398
+MediumEffort         0.915
+HighEffort          1.3115
+France              1.0856
+Italy               0.7214
+Spain               1.0057
+Portugal            1.5764
+Ads                12.3564
+DDBB                0.5606
+ExternalPayment     0.1881
+InternalPayment     0.5842
+C1                  0.2531
+C2                   0.592
+C3                  0.6136
+C4                  2.3418
+C5                  1.2061
+C6                  4.3078
+C7                  6.4682
+Mac                 1.2939
+Windows             0.7729
+
+
+Time taken to build model: 0.05 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances         219               73      %
+Incorrectly Classified Instances        81               27      %
+Kappa statistic                          0.4497
+Mean absolute error                      0.3506
+Root mean squared error                  0.4412
+Relative absolute error                 70.813  %
+Root relative squared error             88.6765 %
+Total Number of Instances              300     
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0.652     0.206      0.721     0.652     0.685      0.773    true
+                 0.794     0.348      0.736     0.794     0.764      0.773    false
+Weighted Avg.    0.73      0.284      0.729     0.73      0.728      0.773
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+  88  47 |   a = true
+  34 131 |   b = false
+

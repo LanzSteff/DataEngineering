@@ -1,0 +1,27 @@
+%Task III: Data preparation
+\chapter{Data preparation}
+Some modifications and preparation on the data are required to get useful results by the logistic regression.
+
+\section{Non-significant data}
+The column Project ID is a continuous enumeration of the data and therefore not usable or not meaningful for our model.
+
+\section{Numerics}
+Logistic regression can not be used on boolean or nominal values. Thus we have to modify all fields except the Effort field.
+\begin{enumerate}
+	\item Country: We applied four dummy fields for the  four countries (France, Italy, Spain, Portugal) with the boolean values [1,0].
+	\item Module: We applied four dummy fields for the modules Ads, DDBB, External Payment and Internal Payment with the boolean values [1,0].
+	\item Component: Also for the 7 components (C1,...,C7) we used 7 dummy fields with the boolean values [1,0].
+	\item BackEnd: We changed the YES and NO values to 1 and 0.
+	\item FrontEnd: We changed the YES and NO values to 1 and 0.
+	\item OS: We applied two dummy fields for the two operating systems Windows and Mac with the boolean values [1,0].
+	\item FAULT: We changed the YES and NO values to true and false of type boolean
+\end{enumerate}
+
+\section{Training and testing data set}
+Due to the cross validation in WEKA we do not have to modify the given data set to get training and testing data set.
+
+\section{Balancing}
+The given data set is already pretty balanced, 45\% and 55\%. Therefore we do not have to balance the data.
+
+\section{Split data fields}
+We split the field Effort into three fields called lowEffort, mediumEffort and highEffort to also get boolean values [1,0]. The first field contained 1 if the effort for the project was from [0.00, 3.43), the second field from [0.43, 5.06) and the third field from [5.06, 6.70]. We chose these values to get three balanced groups.

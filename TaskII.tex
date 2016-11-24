@@ -1,0 +1,16 @@
+%TaskII: Data understanding
+\chapter{Data understanding}
+The used data for the modeling is in a XLS format and contains 300 instances of software projects from the last 3 years with 9 fields:
+\begin{enumerate}
+	\item Project ID [nominal]
+	\item Country: of the development team [nominal]
+	\item FAULT: if it was found a major fault [YES,NO]
+	\item Effort: effort in person/months of the original development [numeric]
+	\item Module: affected by the changes to fix the errors [nominal]
+	\item Component: affected by the changes to fix the errors [C1,...,C7]
+	\item BackEnd: indicating if they were also affected by the changes to fix the errors [YES,NO]
+	\item FrontEnd: indicating if they were also affected by the changes to fix the errors [YES,NO]
+	\item OS: operating system related with the errors [Mac,Windows]
+\end{enumerate}
+
+All the entries in the dataset are non-empty. 135 of the entries have a major fault (FAULT: YES), which are 45\% of all entries and 165 entries have no major fault (FAULT: NO), which are 55\% of all entries.

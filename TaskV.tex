@@ -1,0 +1,118 @@
+%Task V: Evaluation
+\chapter{Evaluation}
+At the early modeling phase we applied Logistic Regression with cross validation with 10 folds on the whole prepared data.
+ 
+\section{Summary}
+After the first round of our Logistic Regression we already get satisfying results. The model classifies 73.00\% of 300 instances correctly and also the root relative squared error is with 88.67\% above our data mining goal of 80.00\%. In the next cycle of the CRISP-DM we would recommend a stepwise backward regression to reduce the complexity of the model and increase the quality of the model.
+\begin{table}[H]
+\centering
+\begin{tabular}{ | l | l | l | }
+  \hline
+	Correctly Classified Instances & 219 & 73\% \\ \hline
+	Incorrectly Classified Instances & 81 & 27\% \\ \hline
+	Kappa statistic & 0.4497 & \\ \hline
+	Mean absolute error & 0.3506 & \\ \hline
+	Root mean squared error & 0.4412 & \\ \hline
+	Relative absolute error & 70.813\% & \\ \hline
+	Root relative squared error & 88.6765\% & \\ \hline
+	Total Number of Instances & 300 & \\ \hline
+\end{tabular}
+\captionof{table}{Stratified cross-validation summary}
+\label{table:summary}
+\end{table}
+
+\section{Confusion Matrix}
+This table[\ref{table:matrix}] shows the correctly and incorrectly classified instances. The goal for further work will be to reduce the wrong classified projects, especially the 34 projects which were classified as false, although they are true. Because we cannot react to a false classified project, which will have a major fault in the end. On the other hand, if we pay more attention to an incorrectly as true classified project, which in the end doesn't have a major fault, we probably do not have to pay more than 20\% of effort investment.
+\begin{table}[H]
+\centering
+\begin{tabular}{ | c | c | c | }
+  \hline
+	a & b & $\leftarrow$ classified as \\ \hline
+  88 & 47 & a = true \\ \hline
+  \textbf{34} & 131 & b = false \\ \hline
+\end{tabular}
+\captionof{table}{Confusion matrix}
+\label{table:matrix}
+\end{table}
+
+\section{Evaluation of Odds Ratios}
+\subsection{Modules and Components}
+The meaning of this table[\ref{table:oddsdec}] is, effort and bug fixing for errors in these modules and components didn't lead to a major fault. This is especially the case for the variables ExternalPayment and C1.
+\begin{table}[H]
+\centering
+\begin{tabular}{ | l | r | }
+  \hline
+	\textbf{Variable} & \textbf{odds ratio} \\ \hline
+  ExternalPayment & 0.1881 \\ \hline
+  C1 & 0.2531 \\ \hline
+	DDBB & 0.5606 \\ \hline
+	InternalPayment & 0.5842 \\ \hline
+	C2 & 0.592 \\ \hline
+	C3 & 0.6136 \\ \hline
+\end{tabular}
+\captionof{table}{Variables and odds decrease the probability for a major fault}
+\label{table:oddsdec}
+\end{table}
+
+The meaning of this table[\ref{table:oddsinc}] is, effort and bug fixing for errors in these modules and components lead to a major fault. This is especially the case for the variables Ads, C7 and C6.
+\begin{table}[H]
+\centering
+\begin{tabular}{ | l | r | }
+  \hline
+	\textbf{Variable} & \textbf{odds ratio} \\ \hline
+  Ads & 12.3564 \\ \hline
+	C7 & 6.4682 \\ \hline
+	C6 & 4.3078 \\ \hline
+	C4 & 2.3418 \\ \hline
+	FrontEnd & 1.759 \\ \hline
+	C5 & 1.2061 \\ \hline
+\end{tabular}
+\captionof{table}{variables and odds increase the probability for a major fault}
+\label{table:oddsinc}
+\end{table}
+
+\subsection{Countries}
+The development in Italy decreases the probability of major faults, whereas the development in Protugal increases the probability. The development in Spain and France have no high influence.
+\begin{table}[H]
+\centering
+\begin{tabular}{ | l | r | }
+  \hline
+	\textbf{Variable} & \textbf{odds ratio} \\ \hline
+	Italy & 0.7214 \\ \hline
+	Spain & 1.0057 \\ \hline
+	France & 1.0856 \\ \hline
+	Portugal & 1.5764 \\ \hline
+\end{tabular}
+\captionof{table}{variables and odds for countries}
+\label{table:country}
+\end{table}
+
+\subsection{Operating Systems}
+The influence of the operating system on major faults is not very significant. Although there is a tendency that Mac increases the probability for major faults, in contrary to Windows, which decreases the probability.
+\begin{table}[H]
+\centering
+\begin{tabular}{ | l | r | }
+  \hline
+	\textbf{Variable} & \textbf{odds ratio} \\ \hline
+	Windows & 0.7729 \\ \hline
+	Mac & 1.2939 \\ \hline
+\end{tabular}
+\captionof{table}{variables and odds for operating systems}
+\label{table:os}
+\end{table}
+
+\subsection{Effort}
+The table[\ref{table:effort}] shows that projects with lower efforts tend to decrease the probability whereas more complex and projects with higher effort increase the probability of a major fault. The influence of medium sized projects is not very important.
+\begin{table}[H]
+\centering
+\begin{tabular}{ | l | r | }
+  \hline
+	\textbf{Variable} & \textbf{odds ratio} \\ \hline
+	LowEffort & 0.8398 \\ \hline
+	MediumEffort & 0.915 \\ \hline
+	HighEffort & 1.3115 \\ \hline
+\end{tabular}
+\captionof{table}{variables and odds for original development effort}
+\label{table:effort}
+\end{table}
+
